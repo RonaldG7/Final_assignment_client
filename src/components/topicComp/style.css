@@ -1,0 +1,65 @@
+.writeCommentBorder {
+    border: 1px solid #e7e7e7;
+}
+
+.TPUser {
+    color: #909090;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.TPUser:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.TPTime {
+    color: #909090;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.TPTime:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.writeCommentLeftSide {
+    background-color: #f5f5f5;
+    border-right: 1px solid #e7e7e7;
+    width: 140px;
+}
+
+.writeCommentLeftSideImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.writeCommentLeftSideUser {
+    color: #1976d2;
+}
+
+.writeCommentRightSIdeCont {
+    background-color: white;
+}
+
+.TPFavoriteSymbol {
+    cursor: pointer;
+    font-size: 32px;
+}
+
+@media (max-width: 768px) {
+    .padding-sm {
+        padding: 0!important;
+    }
+}
+
+@media (max-width: 576px) {
+    .padding-sm {
+        padding: 0!important;
+    }
+    .dNone {
+        display: none!important;
+    }
+}

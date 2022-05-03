@@ -1,0 +1,104 @@
+.commentBorder {
+    border: 1px solid #e7e7e7;
+}
+
+.commentLeftSide {
+    background-color: #f5f5f5;
+    width: 140px;
+    border-right: 1px solid #e7e7e7;
+}
+
+.commentLeftSideImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.commentLeftSideUser {
+    color: #1976d2;
+}
+
+.commentRightSIdeCont {
+    background-color: white;
+}
+
+.commentRightSideContTop {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.commentRightSIdeTime {
+    color: #909090;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.commentRightSIdeTime:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.commentRightSideNumber {
+    color: #909090;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.urlImg {
+    width: 560px;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wordWrap {
+    word-wrap: break-word;
+}
+
+.YTPlayer {
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 768px) {
+    .YTPlayerSM {
+        width: 300px;
+        height: 150px;
+    }
+    .URLImgSM {
+        width: 300px;
+    }
+    .dFlexRowSm {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 576px) {
+    .YTPlayerSM {
+        width: 300px;
+        height: 150px;
+    }
+    .URLImgSM {
+        width: 300px;
+    }
+    .columnSm {
+        flex-direction: column;
+    }
+    .ImgSm {
+        width: 50px;
+        height: 50px;
+    }
+    .dFlexRowSm {
+        flex-direction: row;
+    }
+    .w100 {
+        width: 100%;
+    }
+}

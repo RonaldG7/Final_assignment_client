@@ -1,0 +1,86 @@
+.STUserImg {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.STTopicTitle {
+    color: #1976d2;
+}
+
+.STTopicTitle:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.STTopicUsername {
+    color: #909090;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.STTopicUsername:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.STTopicTime {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.STTopicTime:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.STReplies {
+    color: #909090;
+}
+
+.STCommentTime {
+    color: #1976d2;
+}
+
+.STCommentTime:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.STCommentUser {
+    color: #909090;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.STCommentUser:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.favoriteSymbol {
+    cursor: pointer;
+}
+
+.STCBorder {
+    border: 1px solid #e7e7e7;
+}
+
+.STRepliesMargin {
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .mr10 {
+        margin-right: 10px!important;
+    }
+    .w50 {
+        width: 50% !important;
+    }
+    .dNone {
+        display: none!important;
+    }
+    .flex-end {
+        justify-content: flex-end;
+    }
+}

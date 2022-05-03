@@ -1,0 +1,16 @@
+.formLogin {
+    background-color: white;
+    border: 1px solid #f3f3f3;
+    border-radius: 15px;
+    width: 500px;
+    height: 330px;
+    padding: 16px;
+}
+
+.status {
+    color: red;
+}
+
+.loginTextColor {
+    color: #1976d2;
+}

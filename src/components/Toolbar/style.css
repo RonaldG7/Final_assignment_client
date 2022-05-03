@@ -1,0 +1,25 @@
+.toolbar {
+    background-color: #2a2a2a;
+    color: white;
+    /*height: 20vh;*/
+}
+
+.toolbarBtn {
+    border-right: 1px solid white;
+    cursor: pointer;
+    width: 100px;
+
+}
+
+.toolbarBgdClr {
+    background-color: #565656;
+}
+
+.contBgdClr {
+    background-color: #383838;
+}
+
+.toolbarHeader {
+    cursor: pointer;
+    width: 400px;
+}

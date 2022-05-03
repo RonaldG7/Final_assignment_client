@@ -1,0 +1,22 @@
+.favoritesHeader {
+    background: linear-gradient(0deg, #edf6fd, #f6fafe);
+    border: 1px solid #f3f3f3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #1976d2;
+    font-size: 1.5rem;
+    /*padding: 6px 10px;*/
+}
+
+.favoritesBody {
+    background-color: white;
+    border: 1px solid #f3f3f3;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    .padding-sm {
+        padding: 16px!important;
+    }
+}
